@@ -1,0 +1,17 @@
+{
+  "name": "eyweb",
+  "version": "1.0.0",
+  "description": "Test website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "amitabh"
+  ],
+  "author": "amitabh",
+  "license": "ISC",
+  "engines": {
+    "node": "4.x"
+  }
+}
