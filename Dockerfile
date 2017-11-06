@@ -1,7 +1,4 @@
-FROM mhart/alpine-node
-
-COPY package.json .
-
+FROM node
 # Bundle app source
 COPY . .
 EXPOSE 80
