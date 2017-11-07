@@ -2,7 +2,7 @@ const http = require('http');
 const url = require('url');
 const fs = require('fs');
 const path = require('path');
-// you can pass the parameter in the command line. e.g. node server.js 80
+// you can pass the parameter in the command line. e.g. node server.js 80 
 const port = process.argv[2] || 80;
 http.createServer(function (req, res) {
   console.log(`${req.method} ${req.url}`);
